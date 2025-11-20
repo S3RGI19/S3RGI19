@@ -15,7 +15,7 @@
 
 ---
 
-[![My Skills](https://skillicons.dev/icons?i=python,c,cpp,matlab,pytorch,tensorflow,opencv,ros,git,docker)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=python,c,cpp,matlab,pytorch,tensorflow,opencv,ros,git,github,docker,latex,notion,arduino,raspberry)](https://skillicons.dev)
 
 ---
 
