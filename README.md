@@ -9,7 +9,11 @@
 
 ---
 
-[![My Skills](https://skillicons.dev/icons?i=python,c,cpp,matlab,pytorch,tensorflow,opencv,ros,vscode,git,github,gitlab,docker,arduino,raspberrypi)](https://skillicons.dev)
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,c,cpp,pytorch,tensorflow,opencv,ros,matlab,docker,git,github,gitlab,arduino,raspberrypi,notion,latex&perline=12" />
+  </a>
+</p>
 
 ---
  
