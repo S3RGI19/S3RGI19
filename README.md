@@ -1,10 +1,10 @@
 <!-- Header -->
 <p align="center">
-  <img src="assets/header.png" alt="Sergi Sánchez Orvay - Robotics & AI" width="800">
+  <img src="header.jpeg" alt="Sergi Sánchez Orvay - Robotics & AI" width="800">
 </p>
 
 <p align="center">
-  MSc Robotics, Systems and Control @ ETH Zürich · Perception, Computer Vision, SLAM
+  Robotics Research Intern at BMW Group (RoboTac Lab) · MSc Robotics, Systems and Control at ETH Zürich 
 </p>
 
 ---
@@ -19,7 +19,7 @@
 
 ## Tech stack
 
-[![My Skills](https://skillicons.dev/icons?i=python,cpp,matlab,pytorch,opencv,ros,linux,git,docker)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=python,cpp,matlab,pytorch,opencv,ros2,git,docker)](https://skillicons.dev)
 
 Other tools: Ceres, Hyperion, JAX/PyTorch, LaTeX.
 
