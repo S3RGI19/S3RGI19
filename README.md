@@ -9,13 +9,11 @@
 
 ---
 
-## About me
- 
- WIP
+[![My Skills](https://skillicons.dev/icons?i=python,c,cpp,matlab,pytorch,tensorflow,opencv,ros,vscode,git,github,gitlab,docker,latex,notion,arduino,raspberrypi)](https://skillicons.dev)
 
 ---
-
-[![My Skills](https://skillicons.dev/icons?i=python,c,cpp,matlab,pytorch,tensorflow,opencv,ros,vscode,git,github,gitlab,docker,latex,notion,arduino,raspberrypi)](https://skillicons.dev)
+ 
+ WIP
 
 ---
 
@@ -28,8 +26,6 @@
 
 ---
 
-## Contact
-
-- Website: [your-site.com](https://your-site.com)
-- LinkedIn: [Your Name](https://www.linkedin.com/in/YOUR_LINKEDIN/)
-- Email: your.email@example.com
+- Website: [Personal Website (WIP)](https://s3rgi19.github.io/)
+- LinkedIn: [Sergi Sanchez Orvay](https://www.linkedin.com/in/sergisanchezz/)
+- Email: sergi.sanchez.orvay@gmail.com
