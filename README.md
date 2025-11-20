@@ -19,15 +19,12 @@
 
 ---
 
-<!-- Simple stats card -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=S3RGI19&show_icons=true&hide_border=true" alt="GitHub stats">
-</p>
-
-<!-- Contribution snake  -->
-<p align="center">
-  <img src="https://github.com/S3RGI19/S3RGI19/blob/output/github-contribution-grid-snake.svg" alt="GitHub Snake">
-</p>
+<br clear="both">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/S3RGI19/S3RGI19/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/S3RGI19/S3RGI19/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
 
 ---
 
