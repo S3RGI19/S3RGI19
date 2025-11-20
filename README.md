@@ -1,6 +1,6 @@
 <!-- Header -->
 <p align="center">
-  <img src="header.jpeg" alt="Sergi Sánchez Orvay - Robotics & AI" width="800">
+  <img src="images/header.jpeg" alt="Sergi Sánchez Orvay - Robotics & AI" width="800">
 </p>
 
 <p align="center">
