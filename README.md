@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  Robotics Research Intern at BMW Group (RoboTac Lab) · MSc Robotics, Systems and Control at ETH Zürich 
+  **Robotics Research Intern at BMW Group (RoboTac Lab) · MSc Robotics, Systems and Control at ETH Zürich** 
 </p>
 
 ---
