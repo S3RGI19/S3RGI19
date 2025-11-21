@@ -5,7 +5,9 @@
 
 <p align="center">
   <b>Robotics Research Intern at BMW Group (RoboTac Lab) · MSc Robotics, Systems and Control at ETH Zürich</b>
+</p>
 
+<p align="center">
   Robot Learning · Embodied AI · Grasp & Manipulation · Robot Perception
 </p>
 
@@ -29,9 +31,3 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/S3RGI19/S3RGI19/output/github-contribution-grid-snake.svg" />
   <img alt="github-snake" src="github-snake.svg" />
 </picture>
-
----
-
-- Website: [Personal Website (WIP)](https://s3rgi19.github.io/)
-- LinkedIn: [Sergi Sanchez Orvay](https://www.linkedin.com/in/sergisanchezz/)
-- Email: sergi.sanchez.orvay@gmail.com
