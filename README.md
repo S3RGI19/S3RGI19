@@ -20,10 +20,6 @@
 </p>
 
 ---
- 
- WIP
-
----
 
 <br clear="both">
 <picture>
