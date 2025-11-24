@@ -4,8 +4,12 @@
 </p>
 
 <p align="center">
+  <img src="images/bmw.png" height="25" alt="BMW logo" /> <img src="images/eth.png" height="25" alt="ETH logo" />
+</p>
+
+<p align="center">
   <b>
-    <img src="images/bmw.png" height="20" alt="BMW logo" /> Robotics Research Intern at BMW Group · <img src="images/eth.png" height="20" alt="ETH logo" /> MSc Robotics, Systems and Control at ETH Zürich 
+    Robotics Research Intern at BMW Group · MSc Robotics, Systems and Control at ETH Zürich 
   </b>
 </p>
 
