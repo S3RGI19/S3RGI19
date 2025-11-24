@@ -4,8 +4,11 @@
 </p>
 
 <p align="center">
-  <b>Robotics Research Intern at BMW Group (RoboTac Lab) · MSc Robotics, Systems and Control at ETH Zürich</b>
+  <b>
+    <img src="images/bmw.png" width="20" alt="BMW logo" /> Robotics Research Intern at BMW Group · <img src="images/eth.png" width="28" alt="ETH logo" /> MSc Robotics, Systems and Control at ETH Zürich 
+  </b>
 </p>
+
 
 <p align="center">
   Robot Learning · Embodied AI · Grasp & Manipulation · Robot Perception
