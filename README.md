@@ -18,10 +18,3 @@
     <img src="https://skillicons.dev/icons?i=python,c,cpp,pytorch,tensorflow,opencv,ros,matlab,docker,git,github,gitlab,arduino,raspberrypi,notion,latex&perline=8" />
   </a>
 </p>
-
----
-
-<br clear="both">
-<p align="center">
-  <img src="github-contribution-grid-robot.svg" alt="github-robot" />
-</p>
