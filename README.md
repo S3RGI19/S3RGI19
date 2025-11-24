@@ -5,7 +5,7 @@
 
 <p align="center">
   <b>
-    <img src="images/bmw.png" width="20" alt="BMW logo" /> Robotics Research Intern at BMW Group · <img src="images/eth.png" width="28" alt="ETH logo" /> MSc Robotics, Systems and Control at ETH Zürich 
+    <img src="images/bmw.png" height="20" alt="BMW logo" /> Robotics Research Intern at BMW Group · <img src="images/eth.png" height="20" alt="ETH logo" /> MSc Robotics, Systems and Control at ETH Zürich 
   </b>
 </p>
 
