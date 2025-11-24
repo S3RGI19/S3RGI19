@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="260" viewBox="0 0 400 260"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050816"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <linearGradient id="armGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+
+    <linearGradient id="jointGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+
+    <linearGradient id="objectGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#facc15"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background panel -->
+  <rect x="0" y="0" width="400" height="260" rx="24" fill="url(#bgGrad)"/>
+
+  <!-- Ground / table -->
+  <rect x="40" y="180" width="320" height="12" rx="6" fill="#020617"/>
+  <rect x="40" y="186" width="320" height="4" fill="#0b1220"/>
+
+  <!-- Ambient "glow" circles -->
+  <circle cx="80" cy="60" r="26" fill="#0f172a"/>
+  <circle cx="320" cy="80" r="22" fill="#020617"/>
+  <circle cx="310" cy="190" r="18" fill="#020617"/>
+
+  <!-- Base of robot -->
+  <g transform="translate(200,192)">
+    <!-- Base block -->
+    <rect x="-36" y="-14" width="72" height="28" rx="10" fill="#020617" />
+    <rect x="-30" y="-10" width="60" height="20" rx="8" fill="#0f172a" />
+    <!-- Base ring -->
+    <circle cx="0" cy="-12" r="10" fill="url(#jointGrad)" />
+  </g>
+
+  <!-- Object on table -->
+  <g id="object">
+    <rect id="object-body"
+          x="184" y="136"
+          width="32" height="32" rx="6"
+          fill="url(#objectGrad)"/>
+    <!-- subtle highlight -->
+    <rect x="188" y="140" width="8" height="24" rx="4" fill="#fed7aa" opacity="0.25"/>
+    <animate attributeName="y"
+             xlink:href="#object-body"
+             values="136;136;100;100;136"
+             keyTimes="0;0.32;0.52;0.78;1"
+             dur="4s"
+             repeatCount="indefinite" />
+    <!-- keep highlight in sync -->
+    <animate attributeName="y"
+             values="140;140;104;104;140"
+             keyTimes="0;0.32;0.52;0.78;1"
+             dur="4s"
+             repeatCount="indefinite" />
+  </g>
+
+  <!-- Robot arm (shoulder at 200,192) -->
+  <g transform="translate(200,192)">
+
+    <!-- Upper arm joint -->
+    <circle cx="0" cy="0" r="11" fill="url(#jointGrad)"/>
+
+    <!-- Upper arm link + nested forearm + gripper -->
+    <g id="upper-arm">
+      <!-- Upper arm link -->
+      <rect x="-9" y="-80" width="18" height="80" rx="9"
+            fill="url(#armGrad)" />
+      <rect x="-5" y="-76" width="10" height="72" rx="6"
+            fill="#e5f3ff" opacity="0.14" />
+
+      <!-- Elbow joint and forearm, positioned at end of upper arm -->
+      <g transform="translate(0,-80)">
+        <!-- Elbow joint -->
+        <circle cx="0" cy="0" r="9" fill="url(#jointGrad)"/>
+
+        <!-- Forearm link (this group rotates around elbow) -->
+        <g id="forearm">
+          <rect x="-7.5" y="-70" width="15" height="70" rx="7.5"
+                fill="url(#armGrad)" />
+          <rect x="-4" y="-66" width="8" height="62" rx="5"
+                fill="#e5f3ff" opacity="0.18" />
+
+          <!-- Wrist joint -->
+          <circle cx="0" cy="-70" r="7" fill="url(#jointGrad)"/>
+
+          <!-- Gripper at wrist -->
+          <g id="gripper" transform="translate(0,-78)">
+            <!-- Palm -->
+            <rect x="-10" y="-4" width="20" height="8" rx="4" fill="#020617"/>
+
+            <!-- Left finger -->
+            <rect id="finger-left"
+                  x="-18" y="-14"
+                  width="6" height="20" rx="3"
+                  fill="#e5e7eb"/>
+            <!-- Right finger -->
+            <rect id="finger-right"
+                  x="12" y="-14"
+                  width="6" height="20" rx="3"
+                  fill="#e5e7eb"/>
+
+            <!-- Finger shadows -->
+            <rect x="-18" y="-14" width="3" height="20" rx="2" fill="#9ca3af" opacity="0.5"/>
+            <rect x="15" y="-14" width="3" height="20" rx="2" fill="#9ca3af" opacity="0.5"/>
+
+            <!-- Finger closing / opening animation -->
+            <animate attributeName="x"
+                     xlink:href="#finger-left"
+                     values="-18;-18;-10;-10;-18"
+                     keyTimes="0;0.25;0.35;0.55;1"
+                     dur="4s"
+                     repeatCount="indefinite" />
+            <animate attributeName="x"
+                     xlink:href="#finger-right"
+                     values="12;12;4;4;12"
+                     keyTimes="0;0.25;0.35;0.55;1"
+                     dur="4s"
+                     repeatCount="indefinite" />
+          </g>
+        </g>
+
+      </g>
+
+      <!-- Shoulder rotation of upper arm -->
+      <animateTransform attributeName="transform"
+                        type="rotate"
+                        values="5; -20; -28; 5"
+                        keyTimes="0;0.28;0.6;1"
+                        dur="4s"
+                        repeatCount="indefinite" />
+    </g>
+
+    <!-- Forearm rotation around elbow -->
+    <animateTransform attributeName="transform"
+                      xlink:href="#forearm"
+                      type="rotate"
+                      values="10; 32; 40; 10"
+                      keyTimes="0;0.28;0.6;1"
+                      dur="4s"
+                      repeatCount="indefinite" />
+  </g>
+
+  <!-- Soft bottom glow -->
+  <ellipse cx="200" cy="206" rx="80" ry="12" fill="#020617" opacity="0.8"/>
+
+</svg>
