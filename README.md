@@ -20,4 +20,4 @@
 </p>
 
 ---
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=S3RGI19&theme=react-dark&days=30&area=true&custom_title=Contributions%20Graph%20(Last%2030%20%20Days))](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=S3RGI19&theme=react-dark&days=15&area=true&custom_title=Contributions%20Activity%20Graph%20(Last%2015%20%20Days))](https://github.com/ashutosh00710/github-readme-activity-graph)
