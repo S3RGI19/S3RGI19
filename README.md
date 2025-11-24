@@ -20,3 +20,10 @@
 </p>
 
 ---
+
+<br clear="both">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/github-contribution-grid-robot-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="images/github-contribution-grid-robot.svg" />
+  <img alt="github-robot" src="images/github-contribution-grid-robot.svg" />
+</picture>
