@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="images/bmw.png" height="25" alt="BMW logo" /> <img src="images/eth.png" height="25" alt="ETH logo" />
+  <img src="images/bmw.png" height="32" alt="BMW logo" /> <img src="images/eth.png" height="25" alt="ETH logo" />
 </p>
 
 <p align="center">
