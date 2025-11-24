@@ -20,7 +20,3 @@
 </p>
 
 ---
-
-<p align="center">
-  <img src="images/robot_arm.svg" width="420" alt="Robotic arm grasping an apple">
-</p>
