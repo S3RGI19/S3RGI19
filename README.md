@@ -15,7 +15,7 @@
 
 
 <p align="center">
-  Robot Learning · Embodied AI · Grasp & Manipulation · Robot Perception
+  Robot Learning · Embodied AI · Robot Perception
 </p>
 
 ---
