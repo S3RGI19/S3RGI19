@@ -15,7 +15,7 @@
 
 
 <p align="center">
-  Embodied AI · Robot Perception & Learning · Robotic Manipulation · Self-Supervised Learning
+  Robot Perception & Learning · Robotic Manipulation · Cross-Modal Perception · Self-Supervised Learning
 </p>
 
 ---
